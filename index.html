@@ -1,28 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdul Vajid - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Vajid - MERN Stack Developer</title>
+      <link rel="icon" type="image/png" href="portfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -32,217 +17,465 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
-  </head>
-  <body style="background-color: rgb(255, 255, 255)">
+</head>
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
-      <div class="container">
-        <a class="navbar-brand" href="" style="font-family: fantasy">Vajid.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand animated-logo" href="#home">Vajid.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <section class="home container" id="home">
-      <div class="row align-items-center">
-        <div class="col-lg-6 col-md-12 home-content text-center text-lg-left">
-          <h1>Hi, I'm Abdul Vajid</h1>
-          <h3>Full Stack Developer</h3>
-          <div class="home-sci mt-4">
-            <a href="https://github.com/AbdulVajid14"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/abdul-vajid-098654337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              ><i class="bx bxl-linkedin-square"></i
-            ></a>
-          </div><br>
-          <div>
-            <a href="vajid.pdf" download="vajid.pdf">
-              <button type="button" class="btn btn-primary">Download CV</button>
-            </a>
-          </div>
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 col-md-12">
+                    <div class="home-content">
+                        <h1 class="typing-animation">Hi, I'm Abdul Vajid</h1>
+                        <h3 class="role-animation">MERN Stack Developer</h3>
+                        <p class="location-info">
+                            <i class="bx bx-map"></i> Perinthalmanna, Malappuram, Kerala
+                        </p>
+                        <p class="intro-text">
+                            Passionate Full Stack Developer specializing in MERN stack technologies. 
+                            I create dynamic, responsive web applications with modern design and optimal performance.
+                        </p>
+                        <div class="home-sci">
+                            <a href="https://github.com/AbdulVajid14" class="social-icon">
+                                <i class="bx bxl-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdul-vajid-098654337" class="social-icon">
+                                <i class="bx bxl-linkedin-square"></i>
+                            </a>
+                            <a href="mailto:abdulvajid051@gmail.com" class="social-icon">
+                                <i class="bx bx-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="vajid.pdf" download="Abdul_Vajid_CV.pdf" class="btn btn-primary btn-animated">
+                                <i class="bx bx-download"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-animated">
+                                <i class="bx bx-message"></i> Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center">
+                    <div class="profile-image-container">
+                        <img src="WhatsApp Image 2024-11-08 at 12.01.53_04592bc1.png" 
+                             alt="Abdul Vajid - MERN Stack Developer" 
+                             class="profile-image">
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s;">
+                                <i class="bx bxl-react"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s;">
+                                <i class="bx bxl-nodejs"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s;">
+                                <i class="bx bxl-mongodb"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 3s;">
+                                <i class="bx bxl-javascript"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 col-md-12 text-center img">
-          <img
-            src="WhatsApp Image 2024-11-08 at 12.01.53_04592bc1.png"
-            alt="Profile Picture"
-            width="350"
-            height="350"
-            class="img1"
-          />
-        </div>
-      </div>
-    </section>
-    <hr style="box-shadow: 4px 4px 8px black" />
-    <section id="about" class="about-section p-3 ml-5 mr-5">
-      <br /><br /><br /><br /><br />
-      <h2 style="font-family: fantasy">About</h2>
-      <div id="myself">
-        <p class="lead ml-3">
-          I am a dedicated and hardworking professional with a strong commitment
-          to achieving results. I value continuous learning and strive to bring a
-          positive and solution-oriented mindset to every project I undertake. My
-          goal is to grow both personally and professionally, taking on new
-          challenges and making a meaningful impact in everything I do.
-        </p>
-      </div>
-    </section>
-
-    <section id="skill" class="skill p-3 ml-5 mr-5">
-      <br /><br /><br /><br /><br />
-      <h2 style="font-family: fantasy">Skills</h2>
-      <div class="skills-container">
-        <div class="skills-category">
-          <h3>Frontend</h3>
-          <ul class="list-unstyled">
-            <li class="listed">HTML</li>
-            <li class="listed">CSS</li>
-            <li class="listed">JavaScript</li>
-            <li class="listed">React</li>
-            <li class="listed">Redux</li>
-            <li class="listed">Tailwind CSS</li>
-            <li class="listed">Bootstrap</li>
-          </ul>
-        </div>
-        <div class="skills-category">
-          <h3>Backend</h3>
-          <ul class="list-unstyled">
-            <li class="listed">Node.js</li>
-            <li class="listed">Express.js</li>
-            <li class="listed">MongoDB</li>
-            <li class="listed">REST API</li>
-            <li class="listed">JWT</li>
-          </ul>
-        </div>
-        <div class="skills-category">
-          <h3>Tools & Technologies</h3>
-          <ul class="list-unstyled">
-            <li class="listed">Git & GitHub</li>
-            <li class="listed">Axios</li>
-            <li class="listed">Payment Integration</li>
-            <li class="listed">Multer</li>
-            <li class="listed">Postman</li>
-            <li class="listed">NodeMailer</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <section id="project" class="p-3 ml-5 mr-5">
-      <br /><br /><br /><br /><br />
-      <div class="d-inline-block">
-        <h2 style="font-family: fantasy">Projects</h2>
-        <div class="projects-container">
-          <div class="project-card" id="project1">
-            <h3>Shoezz - E-commerce Website</h3>
-            <p class="lead">
-              Developed a full-stack e-commerce platform for shoes products with user authentication and admin panel.
-              Implemented cart functionality, order placement and payment integration using Razorpay.
-              Built RESTful APIs for efficient data handling and used MongoDB for database management.
-              <strong>Tech Stack:</strong> React, Tailwind CSS, Node.js, Express.js, MongoDB
-            </p>
-          </div>
-          <div class="project-card" id="project2">
-            <h3>Gear-UP - Car Rental System</h3>
-            <p class="lead">
-              Developed a full-featured, responsive platform for car rental, leasing, and tour package bookings.
-              Implemented secure user authentication using Google OAuth and email OTP verification.
-              Managed protected routes with JWT-based authentication and authorization.
-              Integrated Razorpay for payments, Cloudinary for image management, and Nodemailer for email notifications.
-              <strong>Tech Stack:</strong> React.js, Redux Toolkit, Tailwind CSS, Node.js, Express, MongoDB
-            </p>
-          </div>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="about-content">
+                        <p class="lead">
+                            I am a dedicated and hardworking MERN Stack Developer with a strong commitment to 
+                            achieving results. I value continuous learning and strive to bring a positive and 
+                            solution-oriented mindset to every project I undertake.
+                        </p>
+                        <p>
+                            My goal is to grow both personally and professionally, taking on new challenges 
+                            and making a meaningful impact in everything I do. I specialize in creating 
+                            full-stack web applications using modern technologies and best practices.
+                        </p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <strong>Location:</strong> Perinthalmanna, Malappuram, Kerala
+                            </div>
+                            <div class="info-item">
+                                <strong>Email:</strong> abdulvajid051@gmail.com
+                            </div>
+                            <div class="info-item">
+                                <strong>Specialization:</strong> MERN Stack Development
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <hr />
 
-    <div class="container mt-5 bg-light" id="contact">
-      <div class="row">
-        <div class="col-md-6 p-5 bg-light a1">
-          <h1 style="font-family: fantasy">Contact Us</h1>
-          <br /><br />
-          <a
-            class="icon"
-            href="https://www.instagram.com/abdul__vajid_k/profilecard/?igsh=MTVwMWpyZmlwNnE4OQ=="
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            class="icon"
-            href="https://x.com/abdulvajid051?t=I65PRUCa_9Jbw_F4NNXlvA&s=08"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a class="icon" href=""><i class="bx bxl-whatsapp"></i></a>
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="bx bx-graduation"></i>
+                        </div>
+                        <div class="education-content">
+                            <h3>Diploma in Computer Engineering</h3>
+                            <p class="institution">Technical Institution</p>
+                            <p class="description">
+                                Comprehensive program covering software development, programming languages, 
+                                database management, and computer systems. Gained strong foundation in 
+                                computer science principles and practical application development.
+                            </p>
+                            <div class="skills-gained">
+                                <span class="skill-tag">Programming</span>
+                                <span class="skill-tag">Database Design</span>
+                                <span class="skill-tag">Software Engineering</span>
+                                <span class="skill-tag">Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 py-3">
-          <h1></h1>
-          <div class="form-group">
-            <h5 for="name">Name</h5>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter your Name"
-            />
-          </div>
-          <br />
-          <div class="form-group">
-            <h5 for="email">Email</h5>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter your Email"
-            />
-          </div>
-          <br />
-          <div class="form-group">
-            <h5 for="message">Message</h5>
-            <textarea id="message" rows="3" class="form-control"></textarea>
-          </div>
-          <br />
-          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="company-logo">
+                                <i class="bx bx-code-alt"></i>
+                            </div>
+                            <div class="experience-info">
+                                <h3>MERN Stack Developer</h3>
+                                <h4>Bridgeon Solutions</h4>
+                                <p class="duration">Full Stack Development Role</p>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <h5>Key Responsibilities & Achievements:</h5>
+                            <ul class="responsibilities-list">
+                                <li>
+                                    <i class="bx bx-check-circle"></i>
+                                    Contributed to the development and maintenance of full-stack client web applications 
+                                    using HTML, CSS, JavaScript, React on the frontend and Node.js, Express.js, and 
+                                    MongoDB on the backend
+                                </li>
+                                <li>
+                                    <i class="bx bx-check-circle"></i>
+                                    Worked on implementing responsive UI components, building RESTful APIs, 
+                                    handling database operations, and integrating third-party services to enhance functionality
+                                </li>
+                                <li>
+                                    <i class="bx bx-check-circle"></i>
+                                    Collaborated with senior developers to improve user interfaces and enhance website 
+                                    functionality, ensuring optimal user experiences
+                                </li>
+                                <li>
+                                    <i class="bx bx-check-circle"></i>
+                                    Participated in troubleshooting and debugging tasks, reducing errors and improving 
+                                    overall website performance
+                                </li>
+                                <li>
+                                    <i class="bx bx-check-circle"></i>
+                                    Gained exposure to Agile development processes and contributed to sprint planning 
+                                    and code reviews
+                                </li>
+                            </ul>
+                            <div class="tech-stack">
+                                <h6>Technologies Used:</h6>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React.js</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">RESTful APIs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <br /><br /><br />
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <div class="category-icon">
+                        <i class="bx bx-code-block"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">React.js</div>
+                        <div class="skill-item">Redux</div>
+                        <div class="skill-item">Tailwind CSS</div>
+                        <div class="skill-item">Bootstrap</div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <div class="category-icon">
+                        <i class="bx bx-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">REST API</div>
+                        <div class="skill-item">JWT</div>
+                        <div class="skill-item">Mongoose</div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <div class="category-icon">
+                        <i class="bx bx-wrench"></i>
+                    </div>
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git & GitHub</div>
+                        <div class="skill-item">Axios</div>
+                        <div class="skill-item">Payment Integration</div>
+                        <div class="skill-item">Multer</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">NodeMailer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bx bx-store-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shoezz - E-commerce Platform</h3>
+                        <p>
+                            Developed a comprehensive full-stack e-commerce platform for shoe products featuring 
+                            user authentication, admin panel, cart functionality, and secure payment integration.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">User Authentication</span>
+                            <span class="feature">Payment Gateway</span>
+                            <span class="feature">Admin Panel</span>
+                            <span class="feature">Cart System</span>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> React, Tailwind CSS, Node.js, Express.js, MongoDB, Razorpay
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bx bx-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gear-UP - Car Rental System</h3>
+                        <p>
+                            Built a full-featured responsive platform for car rental, leasing, and tour package bookings 
+                            with secure authentication and comprehensive booking management.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Google OAuth</span>
+                            <span class="feature">OTP Verification</span>
+                            <span class="feature">JWT Auth</span>
+                            <span class="feature">Cloud Storage</span>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> React.js, Redux Toolkit, Tailwind CSS, Node.js, Express, MongoDB, Cloudinary
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            I'm always interested in new opportunities and exciting projects. 
+                            Feel free to reach out if you'd like to discuss potential collaborations.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="bx bx-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>abdulvajid051@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bx bx-map"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <p>Perinthalmanna, Malappuram, Kerala</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bx bx-phone"></i>
+                                <div>
+                                    <strong>Available</strong>
+                                    <p>Monday - Friday, 9 AM - 6 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/abdul__vajid_k/" class="social-link">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="https://x.com/abdulvajid051" class="social-link">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="https://github.com/AbdulVajid14" class="social-link">
+                                <i class="bx bxl-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdul-vajid-098654337" class="social-link">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" onclick="sendMail()">
+                                <i class="bx bx-send"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Abdul Vajid. All rights reserved.</p>
+                <p>MERN Stack Developer | Perinthalmanna, Malappuram, Kerala</p>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "f59Ma9Y_FPRNtpxhM",
+        (function() {
+            emailjs.init({
+                publicKey: "f59Ma9Y_FPRNtpxhM",
+            });
+        })();
+
+      
+      
+function sendMail() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    
+    if (name === "" || email === "" || message === "") {
+        alert("Please fill out all fields before submitting.");
+        return;
+    }
+
+    var params = {
+        name: name,
+        email: email,
+        message: message,
+    };
+    const serviceId="service_lj8ahc8";
+const templateId="template_iymwm2d"
+
+emailjs.send(serviceId,templateId,params)
+.then(
+    res => {
+        document.getElementById("name").value="";
+        document.getElementById("email").value="";
+        document.getElementById("message").value="";
+
+        console.log(res);
+        alert("your message sent successfully")
+    }
+)
+.catch(err=>console.log("error",err))
+;
+}
+
+
+
+
+
+
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            sendMail();
         });
-      })();
     </script>
-  </body>
+</body>
 </html>
