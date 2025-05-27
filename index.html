@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul Vajid - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+      <div class="container">
+        <a class="navbar-brand" href="" style="font-family: fantasy">Vajid.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home container" id="home">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 home-content text-center text-lg-left">
+          <h1>Hi, I'm Abdul Vajid</h1>
+          <h3>Full Stack Developer</h3>
+          <div class="home-sci mt-4">
+            <a href="https://github.com/AbdulVajid14"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/abdul-vajid-098654337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+          </div><br>
+          <div>
+            <a href="vajid.pdf" download="vajid.pdf">
+              <button type="button" class="btn btn-primary">Download CV</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 text-center img">
+          <img
+            src="WhatsApp Image 2024-11-08 at 12.01.53_04592bc1.png"
+            alt="Profile Picture"
+            width="350"
+            height="350"
+            class="img1"
+          />
+        </div>
+      </div>
+    </section>
+    <hr style="box-shadow: 4px 4px 8px black" />
+    <section id="about" class="about-section p-3 ml-5 mr-5">
+      <br /><br /><br /><br /><br />
+      <h2 style="font-family: fantasy">About</h2>
+      <div id="myself">
+        <p class="lead ml-3">
+          I am a dedicated and hardworking professional with a strong commitment
+          to achieving results. I value continuous learning and strive to bring a
+          positive and solution-oriented mindset to every project I undertake. My
+          goal is to grow both personally and professionally, taking on new
+          challenges and making a meaningful impact in everything I do.
+        </p>
+      </div>
+    </section>
+
+    <section id="skill" class="skill p-3 ml-5 mr-5">
+      <br /><br /><br /><br /><br />
+      <h2 style="font-family: fantasy">Skills</h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3>Frontend</h3>
+          <ul class="list-unstyled">
+            <li class="listed">HTML</li>
+            <li class="listed">CSS</li>
+            <li class="listed">JavaScript</li>
+            <li class="listed">React</li>
+            <li class="listed">Redux</li>
+            <li class="listed">Tailwind CSS</li>
+            <li class="listed">Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Backend</h3>
+          <ul class="list-unstyled">
+            <li class="listed">Node.js</li>
+            <li class="listed">Express.js</li>
+            <li class="listed">MongoDB</li>
+            <li class="listed">REST API</li>
+            <li class="listed">JWT</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3>Tools & Technologies</h3>
+          <ul class="list-unstyled">
+            <li class="listed">Git & GitHub</li>
+            <li class="listed">Axios</li>
+            <li class="listed">Payment Integration</li>
+            <li class="listed">Multer</li>
+            <li class="listed">Postman</li>
+            <li class="listed">NodeMailer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="p-3 ml-5 mr-5">
+      <br /><br /><br /><br /><br />
+      <div class="d-inline-block">
+        <h2 style="font-family: fantasy">Projects</h2>
+        <div class="projects-container">
+          <div class="project-card" id="project1">
+            <h3>Shoezz - E-commerce Website</h3>
+            <p class="lead">
+              Developed a full-stack e-commerce platform for shoes products with user authentication and admin panel.
+              Implemented cart functionality, order placement and payment integration using Razorpay.
+              Built RESTful APIs for efficient data handling and used MongoDB for database management.
+              <strong>Tech Stack:</strong> React, Tailwind CSS, Node.js, Express.js, MongoDB
+            </p>
+          </div>
+          <div class="project-card" id="project2">
+            <h3>Gear-UP - Car Rental System</h3>
+            <p class="lead">
+              Developed a full-featured, responsive platform for car rental, leasing, and tour package bookings.
+              Implemented secure user authentication using Google OAuth and email OTP verification.
+              Managed protected routes with JWT-based authentication and authorization.
+              Integrated Razorpay for payments, Cloudinary for image management, and Nodemailer for email notifications.
+              <strong>Tech Stack:</strong> React.js, Redux Toolkit, Tailwind CSS, Node.js, Express, MongoDB
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <div class="container mt-5 bg-light" id="contact">
+      <div class="row">
+        <div class="col-md-6 p-5 bg-light a1">
+          <h1 style="font-family: fantasy">Contact Us</h1>
+          <br /><br />
+          <a
+            class="icon"
+            href="https://www.instagram.com/abdul__vajid_k/profilecard/?igsh=MTVwMWpyZmlwNnE4OQ=="
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            class="icon"
+            href="https://x.com/abdulvajid051?t=I65PRUCa_9Jbw_F4NNXlvA&s=08"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a class="icon" href=""><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <div class="col-md-6 py-3">
+          <h1></h1>
+          <div class="form-group">
+            <h5 for="name">Name</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your Name"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <h5 for="email">Email</h5>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your Email"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <h5 for="message">Message</h5>
+            <textarea id="message" rows="3" class="form-control"></textarea>
+          </div>
+          <br />
+          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "f59Ma9Y_FPRNtpxhM",
+        });
+      })();
+    </script>
+  </body>
+</html>
