@@ -874,6 +874,9 @@ html {
 }
 
 @media (max-width: 768px) {
+      .home {
+        padding-top: 70px; 
+    }
     .home-content h1 {
         font-size: 2.5rem;
     }
