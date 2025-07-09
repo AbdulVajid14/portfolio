@@ -1677,6 +1677,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .home{
+        padding-top:    70px;
+    }
     .nav-menu {
         position: fixed;
         top: 70px;
@@ -1689,6 +1692,7 @@ body {
         align-items: center;
         transition: var(--transition);
     }
+    
     
     .nav-menu.active {
         left: 0;
